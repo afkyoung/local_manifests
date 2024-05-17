@@ -16,4 +16,8 @@
 <!-- Kernel -->
   <project path="kernel/xiaomi/ginkgo" name="Team-NoobMaster69/android_kernel_xiaomi_ginkgo" remote="ginkgo-14" revision="fourteen" />
 
+<!-- Remove repo -->
+<remove-project name="LineageOS/android_hardware_qcom_display"/>
+<remove-project name="LineageOS/android_system_libhidl"/>
+
 </manifest>
