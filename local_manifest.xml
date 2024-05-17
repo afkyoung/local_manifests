@@ -2,27 +2,18 @@
 <manifest>
 
 <!-- Tracking -->
-  <remote name="track" fetch="https://github.com" />
+  <remote name="ginkgo-14" fetch="https://github.com/Team-NoobMaster69" />
 
 <!-- Additional -->
-  <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="track" revision="lineage-20" />
-  <project path="external/bson" name="LineageOS/android_external_bson" remote="track" revision="lineage-20" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="track" revision="lineage-20" />
-  <project path="device/motorola/targets" name="rain-of-engines/android_device_motorola_targets" remote="track" revision="master" />
+  <project path="vendor/miuicamera" name="ArrowOS/android_vendor_miuicamera" remote="ginkgo-14" revision="arrow-12.0-a3" />
 
 <!-- Trees -->
-  <project path="device/motorola/beckham" name="rain-of-engines/android_device_motorola_beckham" remote="track" revision="tiramisu" />
-  <project path="device/motorola/evert" name="rain-of-engines/android_device_motorola_evert" remote="track" revision="tiramisu" />
-  <project path="device/motorola/lake" name="rain-of-engines/android_device_motorola_lake" remote="track" revision="tiramisu" />
-  <project path="device/motorola/sdm660-common" name="rain-of-engines/device_motorola_sdm660-common" remote="track" revision="tiramisu" />
+  <project path="device/xiaomi/ginkgo" name="Team-NoobMaster69/android_device_xiaomi_ginkgo" remote="ginkgo-14" revision="fourteen-dynamic" />
 
 <!-- Vendors -->
-  <project path="vendor/motorola/beckham" name="rain-of-engines/android_vendor_motorola_beckham" remote="track" revision="tiramisu" />
-  <project path="vendor/motorola/evert" name="rain-of-engines/android_vendor_motorola_evert" remote="track" revision="tiramisu" />
-  <project path="vendor/motorola/lake" name="rain-of-engines/android_vendor_motorola_lake" remote="track" revision="tiramisu" />
-  <project path="vendor/motorola/sdm660-common" name="rain-of-engines/vendor_motorola_sdm660-common" remote="track" revision="tiramisu" />
+  <project path="vendor/xiaomi/ginkgo" name="Team-NoobMaster69/android_vendor_xiaomi_ginkgo" remote="ginkgo-14" revision="fourteen" />
 
 <!-- Kernel -->
-  <project path="kernel/motorola/sdm660" name="rain-of-engines/android_kernel_motorola_sdm660" remote="track" revision="tiramisu" />
+  <project path="kernel/xiaomi/ginkgo" name="Team-NoobMaster69/android_kernel_xiaomi_ginkgo" remote="ginkgo-14" revision="fourteen" />
 
 </manifest>
