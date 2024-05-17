@@ -19,15 +19,11 @@
 <!-- Remove repo -->
 <remove-project name="LineageOS/android_hardware_qcom_display"/>
 <remove-project name="LineageOS/android_system_libhidl"/>
-<remove-project name="PixelOS/vendor_aosp"/>
 
 <!-- Display -->
   <project path="hardware/qcom-caf/sm8150/display" name="afkyoung/android_hardware_qcom_display" remote="ginkgo-14" revision="lineage-21.0-caf-sm8150" />
 
 <!-- System_libhidl -->
   <project path="system/libhidl" name="afkyoung/android_system_libhidl" remote="ginkgo-14" revision="lineage-21.0" />
-
-<!-- Vendor_Aosp -->
-  <project path="vendor/aosp" name="afkyoung/vendor_aosp" remote="ginkgo-14" revision="fourteen" />
 
 </manifest>
