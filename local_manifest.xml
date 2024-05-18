@@ -2,32 +2,32 @@
 <manifest>
 
 <!-- Tracking -->
-  <remote name="pixel-14" fetch="https://github.com/Team-NoobMaster69" />
+  <remote name="github" fetch="https://github.com/" />
 
 <!-- Additional -->
-  <project path="vendor/miuicamera" name="afkyoung/android_vendor_miuicamera" remote="pixel-14" revision="Mi-cam" />
+  <project path="vendor/miuicamera" name="afkyoung/android_vendor_miuicamera" remote="github" revision="Mi-cam" />
 
 <!-- Trees -->
-  <project path="device/xiaomi/ginkgo" name="Team-NoobMaster69/android_device_xiaomi_ginkgo" remote="pixel-14" revision="fourteen-dynamic" />
+  <project path="device/xiaomi/ginkgo" name="Team-NoobMaster69/android_device_xiaomi_ginkgo" remote="github" revision="fourteen-dynamic" />
 
 <!-- Vendors -->
-  <project path="vendor/xiaomi/ginkgo" name="Team-NoobMaster69/android_vendor_xiaomi_ginkgo" remote="pixel-14" revision="fourteen" />
+  <project path="vendor/xiaomi/ginkgo" name="Team-NoobMaster69/android_vendor_xiaomi_ginkgo" remote="github" revision="fourteen" />
 
 <!-- Kernel -->
-  <project path="kernel/xiaomi/ginkgo" name="Team-NoobMaster69/android_kernel_xiaomi_ginkgo" remote="pixel-14" revision="fourteen" />
+  <project path="kernel/xiaomi/ginkgo" name="Team-NoobMaster69/android_kernel_xiaomi_ginkgo" remote="github" revision="fourteen" />
 
 <!-- Remove repo -->
 <remove-project name="LineageOS/android_hardware_qcom_display"/>
 <remove-project name="LineageOS/android_system_libhidl"/>
-<remove-project name="PixelOS/vendor_aosp"/>
+<remove-project name="vendor_aosp"/>
 
 <!-- Display -->
-  <project path="hardware/qcom-caf/sm8150/display" name="afkyoung/android_hardware_qcom_display" remote="pixel-14" revision="lineage-21.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="afkyoung/android_hardware_qcom_display" remote="github" revision="lineage-21.0-caf-sm8150" />
 
 <!-- System_libhidl -->
-  <project path="system/libhidl" name="afkyoung/android_system_libhidl" remote="pixel-14-14" revision="lineage-21.0" />
+  <project path="system/libhidl" name="afkyoung/android_system_libhidl" remote="github" revision="lineage-21.0" />
 
 <!-- Vendor_Aosp -->
-  <project path="vendor/aosp" name="afkyoung/vendor_aosp" remote="pixel-14" revision="fourteen" />
+  <project path="vendor/aosp" name="afkyoung/vendor_aosp" remote="github" revision="fourteen" />
 
 </manifest>
