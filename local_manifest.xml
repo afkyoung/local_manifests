@@ -16,10 +16,4 @@
 <!-- Kernel -->
   <project path="kernel/xiaomi/ginkgo" name="Team-NoobMaster69/android_kernel_xiaomi_ginkgo" remote="github" revision="fourteen" />
 
-<!-- Remove repo -->
-<remove-project name="LineageOS/android_hardware_qcom_display"/>
-
-<!-- Display -->
-  <project path="hardware/qcom-caf/sm8150/display" name="afkyoung/android_hardware_qcom_display" remote="github" revision="lineage-21.0-caf-sm8150" />
-
 </manifest>
