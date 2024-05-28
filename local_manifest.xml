@@ -12,5 +12,8 @@
 
 <!-- Kernel -->
   <project path="kernel/xiaomi/ginkgo" name="Team-NoobMaster69/android_kernel_xiaomi_ginkgo" remote="github" revision="fourteen" />
+
+<!-- Vendor_extras -->   
+  <project path="vendor/extra" name="Pos-trinket/vendor_extra" remote="github" revision="master" />
   
 </manifest>
