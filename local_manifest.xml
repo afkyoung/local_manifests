@@ -3,6 +3,7 @@
 
 <!-- Tracking -->
   <remote name="github" fetch="https://github.com/" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />   
 
 <!-- Trees -->
   <project path="device/xiaomi/ginkgo" name="Team-NoobMaster69/android_device_xiaomi_ginkgo" remote="github" revision="fourteen" />
@@ -18,5 +19,8 @@
    
 <!-- Delete -->
   <remove-project name="hardware_xiaomi"/>
-  
+
+<!-- Keys --> 
+<project path="vendor/aosp/signing/keys" name="Vhmit/signing_keys" remote="gitlab" revision="main" />
+
 </manifest>
