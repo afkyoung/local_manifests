@@ -6,7 +6,10 @@
   <remote name="gitlab" fetch="https://gitlab.com/" />   
 
 <!-- Trees -->
-  <project path="device/xiaomi/ginkgo" name="Team-NoobMaster69/android_device_xiaomi_ginkgo" remote="github" revision="fourteen" />
+  <project path="device/xiaomi/ginkgo" name="Team-NoobMaster69/android_device_xiaomi_ginkgo" remote="github" revision="fourteen-backup" />
+
+<!-- Additional -->
+  <project path="vendor/miuicamera" name="afkyoung/android_vendor_miuicamera" remote="github" revision="Mi-cam" />
 
 <!-- Vendors -->
   <project path="vendor/xiaomi/ginkgo" name="Team-NoobMaster69/android_vendor_xiaomi_ginkgo" remote="github" revision="fourteen" />
