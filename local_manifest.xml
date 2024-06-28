@@ -19,9 +19,6 @@
 
 <!-- Vendor_extras -->   
   <project path="vendor/extra" name="Pos-trinket/vendor_extra" remote="github" revision="master" />
-   
-<!-- Delete -->
-  <remove-project name="hardware_xiaomi"/>
 
 <!-- Keys --> 
 <project path="vendor/aosp/signing/keys" name="Vhmit/signing_keys" remote="gitlab" revision="main" />
