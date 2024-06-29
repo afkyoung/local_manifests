@@ -5,13 +5,13 @@
   <remote name="github" fetch="https://github.com/" />
 
 <!-- Trees -->
-  <project path="device/xiaomi/ginkgo" name="Team-NoobMaster69/android_device_xiaomi_ginkgo" remote="github" revision="fourteen" />
+  <project path="device/xiaomi/ginkgo" name="afkyoung/android_device_xiaomi_ginkgo" remote="github" revision="fourteen-backup" />
 
 <!-- Vendors -->
-  <project path="vendor/xiaomi/ginkgo" name="Team-NoobMaster69/android_vendor_xiaomi_ginkgo" remote="github" revision="fourteen" />
+  <project path="vendor/xiaomi/ginkgo" name="afkyoung/android_vendor_xiaomi_ginkgo" remote="github" revision="fourteen" />
 
 <!-- Kernel -->
-  <project path="kernel/xiaomi/ginkgo" name="Team-NoobMaster69/android_kernel_xiaomi_ginkgo" remote="github" revision="fourteen" />
+  <project path="kernel/xiaomi/ginkgo" name="afkyoung/android_kernel_xiaomi_ginkgo" remote="github" revision="fourteen" />
 
 <!-- Vendor_extras -->   
   <project path="vendor/extra" name="Pos-trinket/vendor_extra" remote="github" revision="master" />
@@ -20,6 +20,9 @@
   <remove-project name="hardware_xiaomi"/>
   <remove-project name="LineageOS/android_system_libhidl"/>
 
+  <!-- Keys --> 
+<project path="vendor/aosp/signing/keys" name="Vhmit/signing_keys" remote="gitlab" revision="main" />
+  
 <!-- System_libhidl -->
   <project path="system/libhidl" name="afkyoung/android_system_libhidl" remote="github" revision="lineage-21.0" />
   
