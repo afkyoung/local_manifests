@@ -18,9 +18,6 @@
    
 <!-- Delete -->
   <remove-project name="LineageOS/android_system_libhidl"/>
-
-  <!-- Keys --> 
-<project path="vendor/aosp/signing/keys" name="Vhmit/signing_keys" remote="gitlab" revision="main" />
   
 <!-- System_libhidl -->
   <project path="system/libhidl" name="afkyoung/android_system_libhidl" remote="github" revision="lineage-21.0" />
