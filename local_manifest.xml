@@ -17,7 +17,6 @@
   <project path="vendor/extra" name="Pos-trinket/vendor_extra" remote="github" revision="master" />
    
 <!-- Delete -->
-  <remove-project name="hardware_xiaomi"/>
   <remove-project name="LineageOS/android_system_libhidl"/>
 
   <!-- Keys --> 
