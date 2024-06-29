@@ -13,13 +13,4 @@
 <!-- Kernel -->
   <project path="kernel/xiaomi/ginkgo" name="afkyoung/android_kernel_xiaomi_ginkgo" remote="github" revision="fourteen" />
 
-<!-- Vendor_extras -->   
-  <project path="vendor/extra" name="Pos-trinket/vendor_extra" remote="github" revision="master" />
-   
-<!-- Delete -->
-  <remove-project name="LineageOS/android_system_libhidl"/>
-  
-<!-- System_libhidl -->
-  <project path="system/libhidl" name="afkyoung/android_system_libhidl" remote="github" revision="lineage-21.0" />
-  
 </manifest>
